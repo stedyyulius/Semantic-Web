@@ -1,0 +1,159 @@
+.container {
+    overflow: hidden;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+  background-image: url('http://24.media.tumblr.com/a6a66b45722fcc76fa20f4e9dcafd005/tumblr_mvllqpztS41s1euz0o2_r1_500.gif');
+  background-repeat: no-repeat;
+  background-size: 1195px 620px;
+}
+
+footer {
+  margin-top: 450px;
+  float: right;
+  color: white;
+}
+
+/*
+h2{ 
+  margin-top: 120px;
+  margin-left: 330px;
+  font-size: 40px;
+  color: white;
+}
+
+h3{
+  margin-top: 100px;
+  margin-left: 307px;
+  font-size: 30px;
+  color:white;
+}
+
+h4{
+  margin-top: -15px;
+  margin-left: 320px;
+  font-size: 30px;
+  color: white;
+}
+
+h5{
+  margin-top: -25px;
+  margin-left: 200px;
+  font-size: 30px ;
+  color: white;
+}
+
+h6{
+  margin-left: 480px;
+  font-size: 25px;
+  margin-top: -30px;
+  color: white;
+}*/
+
+.top1{
+  margin-top: 120px;
+  margin-left: 320px;
+} 
+
+
+
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button.victoria-one:after {
+	background: black;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+
